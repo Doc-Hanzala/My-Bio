@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #10162f;
+  text-align: center;
+}
+
+.main {
+  max-width: 40rem;
+  margin: 4rem auto;
+  margin-bottom: 0;
+}
+
+img {
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #10162f;
+  margin-bottom: 1rem;
+}
+
+.name a {
+  letter-spacing: 3px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0.8rem;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.bio p {
+  color: #ffd300;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #ffd300;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.links a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  font-family: "Courier New", Courier, monospace;
+  background: #ffd300;
+
+  color: #10162f;
+  padding: 16px 24px;
+  flex: 0 0 100%;
+  display: inline-block;
+  width: 80%;
+  max-width: 350px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-weight: 800;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.links a:hover{
+    background: #e6bf01;
+}
