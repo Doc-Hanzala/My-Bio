@@ -1,5 +1,5 @@
 # My-Bio
- This repository contains a website which has links to all my social
+ This repository contains a website (made with flexbox ) which has links to all my social
 
  - Instagram
  - Blog Post
